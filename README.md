@@ -1,4 +1,6 @@
 # PKGBUILDs for [Arch User Repository](https://aur.archlinux.org)
+Forked from [Eli Schwartz](https://github.com/eli-schwartz/pkgbuilds).
+
 Includes control scripts for managing AUR packages.
 Requires @falconindy's [pkgbuild-introspection](https://www.archlinux.org/packages/community/any/pkgbuild-introspection) tools to auto-generate .SRCINFO
 
