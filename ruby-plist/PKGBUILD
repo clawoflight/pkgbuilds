@@ -15,7 +15,7 @@ sha256sums=('0b3dd455bde18ba7b954ff2fea4eae733f3b38b71504e723255bccc6567a70a9')
 package() {
 	cd "$srcdir"
         local _gemdir="$(ruby -e'puts Gem.default_dir')"
-        gem install --ignore-dependencies --no-user-install -i "${pkgdir}/${_gemdir}" -n "${pkgdir}/usr/bin" "plist-${pkgver}.gem"
+        gem install --backtrace --no-document --ignore-dependencies --no-user-install -i "${pkgdir}/${_gemdir}" -n "${pkgdir}/usr/bin" "plist-${pkgver}.gem"
         rm "${pkgdir}/${_gemdir}/cache/plist-${pkgver}.gem"
         install -dm644 "${pkgdir}/usr/share/licenses/${pkgname}/"
         cp "${pkgdir}/${_gemdir}/gems/plist-${pkgver}/LICENSE" "${pkgdir}/usr/share/licenses/${pkgname}/LICENSE.txt"
