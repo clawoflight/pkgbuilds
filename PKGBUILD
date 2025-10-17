@@ -1,6 +1,6 @@
 # Maintainer: Bennett Piater <bennett at piater dot name>
 pkgname=battery-threshold
-pkgver=1.0
+pkgver=1.1
 pkgrel=1
 pkgdesc="Systemd service to set battery charge thresholds"
 arch=('any')
