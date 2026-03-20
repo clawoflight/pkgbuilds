@@ -1,0 +1,14 @@
+pkgbase = zsd
+	pkgdesc = CLI tool to find older versions of a file in ZFS snapshots
+	pkgver = 1.3.0
+	pkgrel = 1
+	url = https://j-keck.github.io/zsd
+	arch = x86_64
+	arch = aarch64
+	license = MIT
+	makedepends = go
+	depends = zfs-utils
+	source = zsd-1.3.0.tar.gz::https://github.com/j-keck/zsd/archive/refs/tags/v1.3.0.tar.gz
+	b2sums = 739b8daa251f69f7f39b4c1d2f15ad8f3cfa6e505be7b3aeb6a5944db2c1a1576c743a6786eb68d13d99ddc661b9666ec1a1b13d01e45892e3fe67a11419c598
+
+pkgname = zsd
